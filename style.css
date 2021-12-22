@@ -1,0 +1,13 @@
+.game-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
