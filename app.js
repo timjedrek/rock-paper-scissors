@@ -49,7 +49,7 @@ function playRound(humanAnswer) {
     }
     
     scoreCounter();
-    updateImage();
+    updateImage(humanAnswer, computerAnswer);
 
     return console.log(`You chose ${humanAnswer} and the computer chose ${computerAnswer}.  ${roundWinner} the winner.  Your score is ${humanScore} and the computer's score is ${computerScore}.`);
     
@@ -77,12 +77,14 @@ function scoreCounter() {
     }
 }
 
-function updateImage () {
- /*   document.getElementById("selection-image-space-human").innerHTML = `<img src="media/${humanAnswer}.png" alt="${humanAnswer}">`;
-    
-    document.getElementById("selection-image-space-computer").innerHTML = `<img src="media/${computerAnswer}.png" alt="${humanAnswer}">`;*/
+function updateImage (humanAnswer, computerAnswer) {
+    document.getElementById("selection-image-space-human").innerHTML = '<img src="media/' + humanAnswer + '.png" alt="' + humanAnswer + '">';
+
+    document.getElementById("selection-image-space-computer").innerHTML = '<img src="media/computer' + computerAnswer + '.png" alt="' + computerAnswer + '">';
+    console.log("test");
     return
 } 
+
 
 function bringBackSelection () {
     document.getElementById("user-selection").innerHTML = `
@@ -99,6 +101,8 @@ function reset () {
     computerScore = 0;
     document.getElementById("computer-score-number").innerHTML = "0";
     document.getElementById("human-score-number").innerHTML = "0";
-    document.getElementById("status-area-box").innerHTML = `では、開始しましょう`
-    return
+    document.getElementById("status-area-box").innerHTML = `では、開始しましょう`;
+    document.getElementById("selection-image-space-human").innerHTML = null;
+    document.getElementById("selection-image-space-computer").innerHTML = null;
+    return;
 }
