@@ -6,8 +6,53 @@
     justify-content: center;
 }
 
+.selection-image-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 .user-selection {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.user-selection button {
+    font-size: 30px;
+    padding: 1%;
+}
+
+.selection-image-space-human, .selection-image-space-computer {
+    width: 20%;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.computer-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.human-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+#status-area-box {
+
 }
