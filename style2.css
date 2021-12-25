@@ -36,10 +36,12 @@ body {
 
 .status-area {
     height: 20vh;
+    margin: 2vh;
 }
 
 .user-selection {
     height: 15vh;
+    margin: 2vh;
 }
 
 /*
