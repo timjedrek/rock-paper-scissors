@@ -1,9 +1,90 @@
-.game-container {
-    height: 100vh;
-    width: 100vw;
+div {
+    border-width: 0px;
+    border-color: red;
+    border-style: solid;
+}
+
+body {
+    margin: 0;
+    left: 0;
+    top: 0;
+    font-family: 'Yuji Boku', serif;
+    font-size: 20px;
+}
+
+.header {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 1vh;
+    border-radius: 10px;
+    height: 15vh;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    font-size: 75px;
+    border-radius: 50%;
+    margin-left: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.logo-text h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-text {
+    width: 30vw;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-text {
+    background-color: #bbb;
+    border-radius: 5px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-right: 3vw;
+}
+
+.game-container {
+    margin-top: 2vh;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    height: 75vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: space-between;
 }
 
 .selection-image-space {
@@ -35,17 +116,18 @@
     justify-content: space-around;
 }
 
-.computer-score {
+.computer-score, .human-score {
+    background-color:#555555 ;
+    border-radius: 6px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
+    width: 10%;
+
 }
 
-.human-score {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .status-area {
     display: flex;
@@ -53,6 +135,4 @@
     justify-content: center ;
 }
 
-#status-area-box {
 
-}
