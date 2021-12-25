@@ -5,30 +5,12 @@ div {
 }
 
 body {
-    margin: 0;
-    left: 0;
-    top: 0;
     font-family: 'Yuji Boku', serif;
-    font-size: 20px;
 }
 
-.header {
+.container {
     background-color: #EEEEEE;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding: 1vh;
     border-radius: 10px;
-    height: 15vh;
-}
-
-.logo-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .logo {
@@ -37,102 +19,49 @@ body {
     background-color: #bbb;
     font-size: 75px;
     border-radius: 50%;
-    margin-left: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.logo-text h1 {
-    margin: 0;
-    padding: 0;
+.human-score, .computer-score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
 }
 
-.logo-text {
-    width: 30vw;
+.btn-secondary {
+    font-size: 40px;
 }
 
-.menu {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 5%;
+.status-area {
+    height: 20vh;
+    margin: 2vh;
 }
-
-.menu a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.menu-text {
-    background-color: #bbb;
-    border-radius: 5px;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    margin-right: 3vw;
-}
-
-.game-container {
-    margin-top: 2vh;
-    background-color: #EEEEEE;
-    border-radius: 10px;
-    height: 75vh;
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: space-between;
-}
-
-.selection-image-space {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 
 .user-selection {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5%;
+    height: 15vh;
+    margin: 2vh;
 }
 
-.user-selection button {
-    font-size: 30px;
-    padding: 1%;
-}
-
-.selection-image-space-human, .selection-image-space-computer {
-    width: 20%;
+/*
+.selection-image-space {
+    height: 25vh;
 }
 
 .score-board {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.computer-score, .human-score {
-    background-color:#555555 ;
-    border-radius: 6px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    width: 10%;
-
+    height: 10vh;
 }
 
 
-.status-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: center ;
+
+
+*/
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.footer a {
+    text-decoration: none;
+}
