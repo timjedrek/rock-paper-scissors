@@ -8,6 +8,6 @@ Summary
 
 What I learned?
 - Don't design game UIs with bootstrap.
-    - bootstrap works goods for content but not game UI
+    - bootstrap works goods for blog content or news type layout but not game UI
 - Bootstrap class system is overconvuluted and opinionated
 - Designing your own flexbox grid layout works better and is more unopinionated
