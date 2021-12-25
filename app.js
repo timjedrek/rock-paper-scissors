@@ -88,13 +88,13 @@ function updateImage (humanAnswer, computerAnswer) {
 
 function bringBackSelection () {
     document.getElementById("user-selection").innerHTML = `
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
         <button class="btn btn-secondary btn-lg" onclick="playRound('Rock')">石</button>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
         <button class="btn btn-secondary btn-lg" onClick="playRound('Paper')">紙</button>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-3 text-center">
         <button class="btn btn-secondary btn-lg" onclick="playRound('Scissors')">鋏</button>
     </div>
     `;

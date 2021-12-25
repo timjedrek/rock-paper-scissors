@@ -32,37 +32,37 @@
 
     <div class="game-container container">
         <div class="selection-image-space row flex-nowrap justify-content-center ">
-            <div class="selection-image-space-human col-sm-6 d-flex justify-content-center" id="selection-image-space-human">
+            <div class="selection-image-space-human col-sm-3 d-flex justify-content-center" id="selection-image-space-human">
                 <div class="image-container">
                     <img src="media/無い.png" alt="this is where the human hand goes">
                 </div>
             </div>
-            <div class="selection-image-space-computer col-sm-6 d-flex justify-content-center" id="selection-image-space-computer">
+            <div class="selection-image-space-computer col-sm-3 d-flex justify-content-center" id="selection-image-space-computer">
                 <div class="image-container">
                     <img src="media/無い.png" alt="this is where the human hand goes">
             
                 </div>
             </div>
         </div>
-        <div class="score-board row flex-nowrap">
-            <div class="human-score col-sm-6 d-flex justify-content-center">
+        <div class="score-board row flex-nowrap d-flex justify-content-center">
+            <div class="human-score col-sm-3 d-flex justify-content-center">
                 <div id="human-score-number">0</div>
             </div>
             
-            <div class="computer-score col-sm-6 d-flex justify-content-center">
+            <div class="computer-score col-sm-3 d-flex justify-content-center">
                 <div id="computer-score-number">0</div>
 
             </div>
         </div>
 
-        <div class="score-board-players row flex-nowrap">
-            <div class="col-sm-6 d-flex justify-content-center">
+        <div class="score-board-players row flex-nowrap d-flex justify-content-center">
+            <div class="col-sm-3 d-flex justify-content-center">
                 <div class="player-title">
                     <h6>人間</h6>
                 </div>
             </div>
 
-            <div class="col-sm-6 d-flex justify-content-center">
+            <div class="col-sm-3 d-flex justify-content-center">
                 <div class="player-title">
                     <h6>コンピュータ</h6>
                 </div>
@@ -70,7 +70,7 @@
 
         </div>
 
-        <div class="row flex-nowrap">
+        <div class="row">
             <div class="col-12 text-center ">
                     <div class="status-area">
                         <h1 class="display-6" id="status-area-box">では、開始しましょう </h1>
@@ -79,14 +79,14 @@
             </div>
         </div>
 
-        <div id="user-selection" class="user-selection row flex-nowrap justify-content-md-center">
-            <div class="col-sm-4 text-center">
+        <div id="user-selection" class="user-selection row flex-nowrap justify-content-sm-center">
+            <div class="col-sm-3 text-center">
                 <button class="btn btn-secondary btn-lg" onclick="playRound('Rock')">石</button>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-3 text-center">
                 <button class="btn btn-secondary btn-lg" onClick="playRound('Paper')">紙</button>
             </div>
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-3 text-center">
                 <button class="btn btn-secondary btn-lg" onclick="playRound('Scissors')">鋏</button>
             </div>
         </div>
@@ -104,7 +104,6 @@
     </div>
     <!--Load the brain-->
     <script src="app.js"></script>
-
     <!--Load bootstrap-->
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
