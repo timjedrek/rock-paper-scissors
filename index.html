@@ -22,7 +22,7 @@
                     </div>  
                     <div class="logo-text col-md-12 text-center">
                         <h1>じゃんけんぽん</h1>
-                        <small class="text-muted ">誰かが勝ち？<br/>人間かも、コンピューターかも。</small>
+                        <small class="text-muted ">誰を勝ち？<br/>人間かも、コンピューターかも。</small>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
 
 
     <div class="game-container container">
-        <div class="selection-image-space row justify-content-center">
+        <div class="selection-image-space row flex-nowrap justify-content-center ">
             <div class="selection-image-space-human col-sm-6 d-flex justify-content-center" id="selection-image-space-human">
                 <div class="image-container">
                     <img src="media/無い.png" alt="this is where the human hand goes">
@@ -42,9 +42,9 @@
                     <img src="media/無い.png" alt="this is where the human hand goes">
             
                 </div>
+            </div>
         </div>
- 
-        <div class="score-board row">
+        <div class="score-board row flex-nowrap">
             <div class="human-score col-sm-6 d-flex justify-content-center">
                 <div id="human-score-number">0</div>
             </div>
@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <div class="score-board-players row">
+        <div class="score-board-players row flex-nowrap">
             <div class="col-sm-6 d-flex justify-content-center">
                 <div class="player-title">
                     <h6>人間</h6>
@@ -70,7 +70,7 @@
 
         </div>
 
-        <div class="row ">
+        <div class="row flex-nowrap">
             <div class="col-12 text-center ">
                     <div class="status-area">
                         <h1 class="display-6" id="status-area-box">では、開始しましょう </h1>
@@ -79,7 +79,7 @@
             </div>
         </div>
 
-        <div id="user-selection" class="user-selection row justify-content-md-center">
+        <div id="user-selection" class="user-selection row flex-nowrap justify-content-md-center">
             <div class="col-sm-4 text-center">
                 <button class="btn btn-secondary btn-lg" onclick="playRound('Rock')">石</button>
             </div>
