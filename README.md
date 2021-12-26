@@ -1,5 +1,5 @@
 # rock-paper-scissors
-Visit Preview: https://timjedrek.github.io/rock-paper-scissors/
+Visit: https://timjedrek.github.io/rock-paper-scissors/
 
 Summary
 - A rock paper scissors game in Japanese using bootstrap.  May not render properly on mobile devices (must enable view desktop).
